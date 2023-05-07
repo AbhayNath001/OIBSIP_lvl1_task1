@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	scroll-behavior: smooth;
+	font-family: 'Popins', sans-serif;
+}
+html {
+	font-size: 62.5%;
+	over-flow-x: hidden;
+}
+body {
+	background: #fff;
+	color: #FC0480;
+}
+section {
+	min-height: 100vh;
+	padding: 10rem 9% 2rem;
+}
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 2rem 9%;
+	background: grey;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0 0 .2rem 0;
+	animation: changeColor 5s linear infinite;
+	z-index: 100;
+}
+.logo {
+	font-size: 2.5rem;
+	color: pink;
+	font-weight: 600;
+	cursor: default;
+}
+.navbar a {
+	font-size: 1.7rem;
+	color: pink;
+	margin-left: 4rem;
+	filter: drop-shadow(0 0 .5rem #FF006F);
+	transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active {
+	color: aqua;
+}
+.home-content #discount {
+	font-size: 14px;
+	color: green;
+}
+.home-content p {
+	font-size: 34px;
+}
+.home-content span {
+	font-size: 20px;
+	color: grey;
+}
+del {
+  text-decoration: line-through;
+}
+.home-content #off {
+	color: green;
+}
+.home-img .chart {
+	background: #F7B603;
+	color: #fff;
+	font-size: 22px;
+	border-radius: 20px;
+}
+.home-img .chart:hover {
+	color: #F7B603;
+	background: #fff;
+	border: .2rem solid #F7B603;
+}
+.home-img .buy {
+	background: #F74403;
+	color: #fff;
+	font-size: 22px;
+	border-radius: 20px;
+}
+.home-img .buy:hover {
+	color: #F74403;
+	background: #fff;
+	border: .2rem solid #F74403;
+}
+.offer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.offer .img-1 {
+	flex-basis: 18%;
+}
+.offer .home-1-content {
+  flex-basis: 78%;
+  font-size: 2rem;
+}
+table {
+   border-collapse: collapse;
+   width: 100%;
+   font-size: 15px;
+}
+th, td {
+   padding: 8px;
+   text-align: left;
+   border: 1px solid #ddd;
+}
+td + td {
+   padding-left: 20px;
+}
